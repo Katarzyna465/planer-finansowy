@@ -51,33 +51,35 @@ Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 
 
 
-## 4. Architektura systemu
+### 4. Technologie i narzędzia
 
-### a. Architektura rozwoju
-- Python 3.x  
-- Streamlit  
-- Pandas  
-- Plotly  
-- Git / GitHub
+Projekt został zrealizowany przy użyciu następujących technologii:
 
-### b. Architektura uruchomieniowa
-- Przeglądarka internetowa  
-- Streamlit  
-- Pandas  
-- Plotly
+* *Język programowania:* Python 3.x
+* *Framework aplikacji:* Streamlit
+* *Analiza i przetwarzanie danych:* Pandas
+* *Wizualizacja danych:* Plotly
+* *Kontrola wersji i repozytorium:* Git / GitHub, w podpunkcie a a w podpunkce b to ### b. Architektura uruchomieniowa
 
+Aplikacja jest uruchamiana lokalnie. Logika biznesowa wykonywana jest przez interpreter języka Python, a interfejs użytkownika wyświetlany jest w przeglądarce internetowej.
 
+* Środowisko uruchomieniowe: Python 3.8+
+* Interfejs: Przeglądarka internetowa" potem do 5 podpunktu dałabym to "## 5. Testowanie
 
-## 5. Test
+### a. Scenariusze testowe (Test Cases)
 
-### a. Scenariusze testowe
-- Obliczanie bilansu
-- Zapis danych
-- Monitorowanie oszczędności
-- Kalkulator kredytowy
+| ID | Scenariusz testowy | Oczekiwany rezultat | Status |
+|----|-------------------|---------------------|--------|
+| *TC-01* | **Obliczanie miesięcznego bilansu**<br>Wprowadzenie przychodu 5000 zł i sumy wydatków 3000 zł. | System wyświetla poprawny bilans (+2000 zł) oraz komunikat o nadwyżce budżetowej. | ✅ OK |
+| *TC-02* | **Wizualizacja struktury wydatków**<br>Wprowadzenie wydatków w różnych kategoriach (np. jedzenie, czynsz). | Wykres kołowy (Plotly) generuje się poprawnie i odzwierciedla procentowy udział kategorii. | ✅ OK |
+| *TC-03* | **Symulacja "Efektu Latte"**<br>Zmiana ceny kawy i częstotliwości zakupu w symulatorze. | Wykres prognozy oszczędności dynamicznie aktualizuje się, pokazując kwotę po 10 latach. | ✅ OK |
+| *TC-04* | **Kalkulator Kredytowy**<br>Wprowadzenie kwoty kredytu, oprocentowania i okresu spłaty. | Aplikacja wylicza poprawną wysokość miesięcznej raty oraz całkowity koszt kredytu. | ✅ OK |
+| *TC-05* | **Trwałość danych (Eksport)**<br>Użycie przycisku "Pobierz dane jako CSV". | Przeglądarka pobiera plik .csv, który zawiera poprawnie sformatowane dane z historii. | ✅ OK |
+| *TC-06* | **Walidacja danych wejściowych**<br>Próba wpisania ujemnej kwoty przychodu. | System blokuje operację lub wyświetla ostrzeżenie. | ✅ OK |
 
-### b. Sprawozdanie z testów
-Testy zostały przeprowadzone w środowisku lokalnym. Nie stwierdzono błędów krytycznych.
+### b. Podsumowanie testów
+
+Testy funkcjonalne zostały przeprowadzone manualnie w środowisku lokalnym. Aplikacja działa stabilnie, a weryfikacja kluczowych funkcjonalności (obliczenia finansowe, generowanie wykresów, eksport danych) zakończyła się wynikiem pozytywnym. Nie wykryto błędów krytycznych uniemożliwiających korzystanie z programu.
 
 
 
