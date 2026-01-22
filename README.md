@@ -68,7 +68,7 @@ Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 
 
 
-## 5. Testy
+## 5. Poziomka
 
 ### a. Scenariusze testowe
 - Obliczanie bilansu
