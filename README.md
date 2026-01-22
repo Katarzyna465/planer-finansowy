@@ -2,7 +2,7 @@
 
 ## Interaktywny Planer Finansowy i Symulator Decyzji Ekonomicznych
 
----
+
 
 ## 1. Charakterystyka oprogramowania
 
@@ -19,7 +19,7 @@ Celem aplikacji jest wspomaganie użytkownika w zarządzaniu budżetem domowym p
 System umożliwia wprowadzanie danych finansowych, automatyczne obliczanie bilansu oraz wizualizację struktury wydatków.  
 Dodatkowo aplikacja pełni funkcję edukacyjną, oferując symulator „Efektu Latte” oraz kalkulator kredytowy.
 
----
+
 
 ## 2. Prawa autorskie
 
@@ -30,7 +30,7 @@ Dodatkowo aplikacja pełni funkcję edukacyjną, oferując symulator „Efektu L
 ### b. Warunki licencyjne
 Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 
----
+
 
 ## 3. Specyfikacja wymagań
 
@@ -49,7 +49,7 @@ Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 | W-09 | Responsywność interfejsu | Dostosowanie UI | 2 | Pozafunkcjonalne |
 | W-10 | Walidacja danych | Obsługa błędów | 1 | Pozafunkcjonalne |
 
----
+
 
 ## 4. Architektura systemu
 
@@ -66,7 +66,7 @@ Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 - Pandas  
 - Plotly
 
----
+
 
 ## 5. Testy
 
@@ -79,7 +79,7 @@ Oprogramowanie zostało udostępnione na zasadach licencji **MIT License**.
 ### b. Sprawozdanie z testów
 Testy zostały przeprowadzone w środowisku lokalnym. Nie stwierdzono błędów krytycznych.
 
----
+
 
 ## Instrukcja uruchomienia
 
